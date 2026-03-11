@@ -1,14 +1,14 @@
 "use client";
+import { Building2, Check, Users, Zap } from "lucide-react";
 import { useState } from "react";
-import { Check, Zap, Building2, Users } from "lucide-react";
 
 const plans = [
   {
     name: "Starter",
     icon: Zap,
     description: "Perfect for small businesses just getting started with fleet tracking.",
-    monthlyPrice: 29,
-    yearlyPrice: 23,
+    monthlyPrice: 500,
+    yearlyPrice: 400,
     vehicleLimit: "Up to 5 vehicles",
     color: "slate",
     features: [
@@ -26,8 +26,8 @@ const plans = [
     name: "Professional",
     icon: Users,
     description: "Ideal for growing businesses with medium-sized fleets.",
-    monthlyPrice: 79,
-    yearlyPrice: 63,
+    monthlyPrice: 700,
+    yearlyPrice: 630,
     vehicleLimit: "Up to 25 vehicles",
     color: "brand",
     features: [
@@ -49,8 +49,8 @@ const plans = [
     name: "Enterprise",
     icon: Building2,
     description: "For large fleets and enterprises requiring full customization.",
-    monthlyPrice: 199,
-    yearlyPrice: 159,
+    monthlyPrice: 1000,
+    yearlyPrice: 800,
     vehicleLimit: "Unlimited vehicles",
     color: "slate",
     features: [
@@ -114,11 +114,10 @@ export default function Pricing() {
             return (
               <div
                 key={plan.name}
-                className={`relative flex flex-col rounded-2xl border-2 transition-all duration-300 ${
-                  plan.featured
-                    ? "border-brand-500 shadow-2xl shadow-brand-100 scale-[1.02]"
-                    : "border-slate-200 hover:border-brand-200 card-shadow hover:card-shadow-hover"
-                }`}
+                className={`relative flex flex-col rounded-2xl border-2 transition-all duration-300 ${plan.featured
+                  ? "border-brand-500 shadow-2xl shadow-brand-100 scale-[1.02]"
+                  : "border-slate-200 hover:border-brand-200 card-shadow hover:card-shadow-hover"
+                  }`}
               >
                 {plan.featured && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2">
@@ -144,11 +143,11 @@ export default function Pricing() {
 
                   {/* Price */}
                   <div className="mb-1">
-                    <span className="font-display text-4xl font-bold text-slate-900">${price}</span>
+                    <span className="font-display text-4xl font-bold text-slate-900">{price} BDT</span>
                     <span className="text-slate-500 text-sm ml-1">/mo</span>
                   </div>
                   {yearly && (
-                    <p className="text-xs text-brand-600 font-semibold mb-1">Billed ${price * 12}/year</p>
+                    <p className="text-xs text-brand-600 font-semibold mb-1">Billed {price * 12} BDT/year</p>
                   )}
                 </div>
 
@@ -168,11 +167,10 @@ export default function Pricing() {
                 <div className="p-6 pt-4">
                   <a
                     href="#cta"
-                    className={`block text-center font-semibold py-3.5 px-6 rounded-xl transition-all duration-200 text-sm ${
-                      plan.featured
-                        ? "bg-brand-500 hover:bg-brand-600 text-white shadow-lg shadow-brand-200 hover:shadow-xl hover:shadow-brand-300"
-                        : "bg-slate-100 hover:bg-slate-200 text-slate-800"
-                    }`}
+                    className={`block text-center font-semibold py-3.5 px-6 rounded-xl transition-all duration-200 text-sm ${plan.featured
+                      ? "bg-brand-500 hover:bg-brand-600 text-white shadow-lg shadow-brand-200 hover:shadow-xl hover:shadow-brand-300"
+                      : "bg-slate-100 hover:bg-slate-200 text-slate-800"
+                      }`}
                   >
                     {plan.cta}
                   </a>
@@ -184,7 +182,7 @@ export default function Pricing() {
 
         {/* Bottom note */}
         <p className="text-center text-sm text-slate-500 mt-10">
-          All plans include a <strong className="text-slate-700">14-day free trial</strong>. No credit card required. 
+          All plans include a <strong className="text-slate-700">14-day free trial</strong>. No credit card required.
           Have a larger fleet? <a href="#cta" className="text-brand-600 font-semibold hover:underline">Contact us for custom pricing →</a>
         </p>
       </div>
