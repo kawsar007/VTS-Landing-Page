@@ -1,5 +1,6 @@
 "use client";
 import { MapPin, Menu, X } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const navLinks = [
@@ -55,18 +56,19 @@ export default function Navbar() {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
-            <a
-              href="#pricing"
+            <Link
+              href="http://69.167.170.135/login"
+              target="_blank"
               className="text-sm font-semibold text-slate-700 hover:text-brand-600 transition-colors px-4 py-2"
             >
               Log In
-            </a>
-            <a
+            </Link>
+            <Link
               href="#cta"
               className="text-sm font-semibold bg-brand-500 hover:bg-brand-600 text-white px-5 py-2.5 rounded-xl transition-all duration-200 shadow-sm hover:shadow-md hover:shadow-brand-200"
             >
               Get Started Free
-            </a>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
