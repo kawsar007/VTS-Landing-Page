@@ -68,7 +68,7 @@ export default function WhyChooseUs() {
             <span className="text-brand-400">Demand More</span>
           </h2>
           <p className="text-lg text-slate-400">
-            Geon VTS is not just another GPS tracker. It's a complete fleet intelligence platform designed with enterprise reliability and startup agility.
+            FleetMTS is not just another GPS tracker. It's a complete fleet intelligence platform designed with enterprise reliability and startup agility.
           </p>
         </div>
 

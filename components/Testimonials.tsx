@@ -9,7 +9,7 @@ const testimonials = [
     avatar: "RI",
     avatarColor: "#13b368",
     rating: 5,
-    quote: "Geon VTS transformed how we manage our 80-vehicle fleet. Real-time tracking and instant alerts have reduced fuel costs by 23% in just 3 months.",
+    quote: "FleetMTS transformed how we manage our 80-vehicle fleet. Real-time tracking and instant alerts have reduced fuel costs by 23% in just 3 months.",
     highlight: "23% fuel cost reduction",
   },
   {
@@ -49,7 +49,7 @@ const testimonials = [
     avatar: "ZK",
     avatarColor: "#ea580c",
     rating: 5,
-    quote: "The API integration with our ERP system was seamless. Geon VTS's technical team provided excellent documentation and support throughout.",
+    quote: "The API integration with our ERP system was seamless. FleetMTS's technical team provided excellent documentation and support throughout.",
     highlight: "Seamless API integration",
   },
   {
@@ -59,7 +59,7 @@ const testimonials = [
     avatar: "SK",
     avatarColor: "#0d9488",
     rating: 5,
-    quote: "Geofence alerts and speed notifications keep us compliant. We've reduced unauthorized vehicle usage by 40% since switching to Geon VTS.",
+    quote: "Geofence alerts and speed notifications keep us compliant. We've reduced unauthorized vehicle usage by 40% since switching to FleetMTS.",
     highlight: "40% less unauthorized use",
   },
 ];
@@ -78,7 +78,7 @@ export default function Testimonials() {
             <span className="text-gradient">Across the Country</span>
           </h2>
           <p className="text-lg text-slate-600">
-            See how businesses of all sizes are transforming their fleet operations with Geon VTS.
+            See how businesses of all sizes are transforming their fleet operations with FleetMTS.
           </p>
         </div>
 

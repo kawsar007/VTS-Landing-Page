@@ -73,7 +73,7 @@ export default function Features() {
             <span className="text-gradient">Control Your Fleet</span>
           </h2>
           <p className="text-lg text-slate-600 leading-relaxed">
-            Geon VTS brings enterprise-grade vehicle tracking into an intuitive, powerful platform built for businesses of every size.
+            FleetMTS brings enterprise-grade vehicle tracking into an intuitive, powerful platform built for businesses of every size.
           </p>
         </div>
 

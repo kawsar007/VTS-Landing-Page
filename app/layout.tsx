@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "GeonVTS — Smart Vehicle Tracking System",
+  title: "FleetMTS — Fleet Management and Tracking Solution",
   description:
     "Real-time vehicle tracking, fleet management, and advanced analytics for modern businesses. Monitor your entire fleet from a single dashboard.",
-  keywords: "vehicle tracking, GPS tracking, fleet management, real-time tracking, VTS",
+  keywords: "vehicle tracking, GPS tracking, fleet management, real-time tracking, FleetMTS, fleet analytics, fleet monitoring, fleet optimization, fleet solutions",
 };
 
 export default function RootLayout({

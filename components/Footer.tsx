@@ -85,7 +85,7 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 text-white" />
               </div>
               <span className="font-display text-xl font-bold text-white">
-                Geon<span className="text-brand-400">Technology</span>
+                Fleet<span className="text-brand-400">MTS</span>
               </span>
             </a>
             <p className="text-sm text-slate-400 leading-relaxed mb-6 max-w-xs">
@@ -96,7 +96,7 @@ export default function Footer() {
             <div className="space-y-2.5 text-sm">
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-brand-400 flex-shrink-0" />
-                <a href="mailto:hello@geonvts.io" className="hover:text-white transition-colors">hello@geonvts.io</a>
+                <a href="mailto:hello@fleetmts.com" className="hover:text-white transition-colors">hello@fleetmts.com</a>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-brand-400 flex-shrink-0" />
@@ -134,7 +134,7 @@ export default function Footer() {
       <div className="border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-slate-500">
-            © {year} Geon VTS Technologies Ltd. All rights reserved.
+            © {year} FleetMTS Technologies Ltd. All rights reserved.
           </p>
 
           {/* Socials */}

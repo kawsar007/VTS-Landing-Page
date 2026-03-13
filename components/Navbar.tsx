@@ -36,7 +36,7 @@ export default function Navbar() {
               <MapPin className="w-5 h-5 text-white" />
             </div>
             <span className="font-display text-xl font-800 text-slate-900 tracking-tight">
-              GEON<span className="text-brand-500">Technology</span>
+              Fleet<span className="text-brand-500">MTS</span>
             </span>
           </a>
 

@@ -32,7 +32,7 @@ export default function CTA() {
               Ready to Transform Your Fleet Management?
             </h2>
             <p className="text-brand-100 text-lg mb-10 max-w-2xl mx-auto">
-              Join 1,200+ businesses already using Geon VTS to track smarter, save more, and scale faster. Start your free 14-day trial today.
+              Join 1,200+ businesses already using FleetMTS to track smarter, save more, and scale faster. Start your free 14-day trial today.
             </p>
 
             {/* Input + CTA */}
