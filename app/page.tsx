@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Navbar from "@/components/Navbar";
 import Pricing from "@/components/Pricing";
+import ScrollToTop from "@/components/ScrollToTop";
 import Testimonials from "@/components/Testimonials";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
@@ -24,6 +25,8 @@ export default function Home() {
         <CTA />
       </main>
       <Footer />
+      {/* Scroll Button */}
+      <ScrollToTop />
     </>
   );
 }

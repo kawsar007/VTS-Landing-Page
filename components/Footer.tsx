@@ -1,4 +1,5 @@
 import { Globe, Mail, MapPin, Phone } from "lucide-react";
+import Link from "next/link";
 
 const footerLinks = {
   Product: [
@@ -80,14 +81,14 @@ export default function Footer() {
         <div className="grid lg:grid-cols-6 gap-10">
           {/* Brand column */}
           <div className="lg:col-span-2">
-            <a href="#" className="inline-flex items-center gap-2 mb-4">
+            <Link href="#" className="inline-flex items-center gap-2 mb-4">
               <div className="w-9 h-9 rounded-xl bg-brand-500 flex items-center justify-center">
                 <MapPin className="w-5 h-5 text-white" />
               </div>
               <span className="font-display text-xl font-bold text-white">
                 Fleet<span className="text-brand-400">MTS</span>
               </span>
-            </a>
+            </Link>
             <p className="text-sm text-slate-400 leading-relaxed mb-6 max-w-xs">
               Smart, real-time vehicle tracking and fleet management for businesses of all sizes. Built for reliability, designed for simplicity.
             </p>
